@@ -54,7 +54,9 @@ nav ul {
     background-repeat: no-repeat;
     background-position: right;
     width: 1440px;
-    height: 100vh;
+    height: 900px;
+    display: flex;
+    align-items: center;
 }
 .main-header{
     display: grid;
@@ -72,11 +74,10 @@ nav ul {
     width: 500px;
     height: 500px;
     left: 806.33px;
-    top: 93px;
+    top: 218px;
     background: #44A1A0;
-    transform: rotate(-6.46deg);
-    
-background: #44A1A0;
+    transform: rotate(-6.47deg);
+    background: #44A1A0;
 }
 .main-header .header-img img:hover{
     transform: rotate(-6deg);
@@ -87,18 +88,18 @@ background: #44A1A0;
 }
 .main-text h1 {
     color: #021718;
-font-weight: 900;
-font-size: 64px;
-line-height: 75px;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
 
 }
 .main-text p{
     font-weight: normal;
-font-size: 24px;
-line-height: 42px;
-color: #021718;
-width: 418px;
-margin: 30px 0;
+    line-height: 42px;
+    color: #021718;
+    width: 418px;
+    margin: 30px 0;
+    font-size: 24px;
 }
 .main-btn{
     width: 196px;
